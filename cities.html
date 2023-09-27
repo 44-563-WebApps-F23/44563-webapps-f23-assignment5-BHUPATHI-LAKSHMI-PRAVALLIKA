@@ -14,149 +14,195 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
-
 </head>
 
 <body>
-    <h1>Visit cities with Pravallika Bhupathi</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-2">B</div>
-            <div class="col-sm-2">U</div>
-            <div class="col-sm-2">P</div>
-            <div class="col-sm-2">A</div>
-            <div class="col-sm-2">T</div>
-            <div class="col-sm-2">I</div>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="cities.html">A Few Cities</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+              
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link active" aria-current="page" href="advanced.html">Advanced</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+          </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md">Bhopal</div>
-            <div class="col-md">Udipi</div>
-            <div class="col-md">Patna</div>
-            <div class="col-md">Aurangabad</div>
-            <div class="col-md">Tirupur</div>
-            <div class="col-md">Indore</div>
-        </div>
-    </div>
-    <p>ANSWER</p>
-    <p>In this layout, the first row with the letters will break first because the "col-sm-2" class specifies a small
-        screen (sm) column size, and Bootstrap prioritizes stacking columns vertically on smaller screens. The city
-        names in the second
-        row will remain in a single row until there is not enough horizontal space to accommodate them.</p>
-    <div class="container">
-        <img src="Bhopal.jpg" class="img-fluid" alt="Image of Bhopal" width="300" height="300">
-        <img src="Indore.jpg" class="img-fluid" alt="Image of Indore" width="300" height="300">
-        <img src="Tirupur.jpg" class="img-fluid" alt="Image of Tirupur" width="250" height="200">
-    </div>
-    <div class="container">
-        <img src="Bhopal.jpg" class="img-thumbnail" alt="Image of Bhopal" width="300" height="300">
-        <img src="Indore.jpg" class="img-thumbnail" alt="Image of Indore" width="300" height="300">
-        <img src="Tirupur.jpg" class="img-thumbnail" alt="Image of Tirupur" width="250" height="200">
-    </div>
-    <table class="table table-bordered caption-top">
-        <caption>Cities in INDIA</caption>
-        <thead>
-            <tr class="table-primary">
-                <th scope="col">Letter</th>
-                <th scope="col">City</th>
-                <th scope="col">River</th>
-                <th scope="col">Tree</th>
-            </tr>
-        </thead>
-        <tr class="table-secondary">
-            <th scope="row">B</th>
-            <td>Bhopal</td>
-            <td>Bramhaputra</td>
-            <td>Banana Tree</td>
-        </tr>
-        <tr class="table-success">
-            <th scope="row">U</th>
-            <td>Udipi</td>
-            <td>Union River</td>
-            <td>Umbrella tree</td>
-        </tr>
-        <tr class="table-danger">
-            <th scope="row">P</th>
-            <td>Patna</td>
-            <td>Po River</td>
-            <td>Pineapple tree</td>
-        </tr>
-        <tr class="table-warning">
-            <th scope="row">A</th>
-            <td>Aurangabad</td>
-            <td>Abita River</td>
-            <td>Apple Tree</td>
-        </tr>
-        <tr class="table-info">
-            <th scope="row">T</th>
-            <td>Tirupur</td>
-            <td>Tungabadra River</td>
-            <td>Teakwood Tree</td>
-        </tr>
-        <tr class="table-light">
-            <th scope="row">I</th>
-            <td>Indore</td>
-            <td>Igushik River</td>
-            <td>Isodon Tree</td>
-        </tr>
-    </table>
+      </nav>
 
 
 
-    <div class="container">
-        <label for="floatingInputGrid">Buttons</label><br>
-        <div class="btn" role="group" aria-label="All Buttons">
-            <button type="button" class="btn btn-primary">B</button>
-            <button type="button" class="btn btn-primary">U</button>
-            <button type="button" class="btn btn-primary">P</button>
-            <button type="button" class="btn btn-primary">A</button>
-            <button type="button" class="btn btn-primary">T</button>
-            <button type="button" class="btn btn-primary">I</button>
-        </div>
 
-        <div class="cointainer">
-            <label for="floatingInputGrid">Button Group 1</label><br>
-            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                <div class="btn-group me-2" role="group" aria-label="First group">
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-success">B</button>
-                        <button type="button" class="btn btn-success">U</button>
-                        <button type="button" class="btn btn-success">P</button>
-                    </div>
+
+
+
+
+
+
+
+
+            <h1>Visit cities with Pravallika Bhupathi</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2">B</div>
+                    <div class="col-sm-2">U</div>
+                    <div class="col-sm-2">P</div>
+                    <div class="col-sm-2">A</div>
+                    <div class="col-sm-2">T</div>
+                    <div class="col-sm-2">I</div>
                 </div>
             </div>
-        </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">Bhopal</div>
+                    <div class="col-md">Udipi</div>
+                    <div class="col-md">Patna</div>
+                    <div class="col-md">Aurangabad</div>
+                    <div class="col-md">Tirupur</div>
+                    <div class="col-md">Indore</div>
+                </div>
+            </div>
+            <div>
+            <p>ANSWER</p>
+            <p>In this layout, the first row with the letters will break first because the "col-sm-2" class specifies a
+                small
+                screen (sm) column size, and Bootstrap prioritizes stacking columns vertically on smaller screens. The
+                city
+                names in the second
+                row will remain in a single row until there is not enough horizontal space to accommodate them.</p>
+                </div>
+            <div class="container">
+                <img src="Bhopal.jpg" class="img-fluid" alt="Image of Bhopal" width="300" height="300">
+                <img src="Indore.jpg" class="img-fluid" alt="Image of Indore" width="300" height="300">
+                <img src="Tirupur.jpg" class="img-fluid" alt="Image of Tirupur" width="250" height="200">
+            </div>
+            <div class="container">
+                <img src="Bhopal.jpg" class="img-thumbnail" alt="Image of Bhopal" width="300" height="300">
+                <img src="Indore.jpg" class="img-thumbnail" alt="Image of Indore" width="300" height="300">
+                <img src="Tirupur.jpg" class="img-thumbnail" alt="Image of Tirupur" width="250" height="200">
+            </div>
+            <table class="table table-bordered caption-top">
+                <caption>Cities in INDIA</caption>
+                <thead>
+                    <tr class="table-primary">
+                        <th scope="col">Letter</th>
+                        <th scope="col">City</th>
+                        <th scope="col">River</th>
+                        <th scope="col">Tree</th>
+                    </tr>
+                </thead>
+                <tr class="table-secondary">
+                    <th scope="row">B</th>
+                    <td>Bhopal</td>
+                    <td>Bramhaputra</td>
+                    <td>Banana Tree</td>
+                </tr>
+                <tr class="table-success">
+                    <th scope="row">U</th>
+                    <td>Udipi</td>
+                    <td>Union River</td>
+                    <td>Umbrella tree</td>
+                </tr>
+                <tr class="table-danger">
+                    <th scope="row">P</th>
+                    <td>Patna</td>
+                    <td>Po River</td>
+                    <td>Pineapple tree</td>
+                </tr>
+                <tr class="table-warning">
+                    <th scope="row">A</th>
+                    <td>Aurangabad</td>
+                    <td>Abita River</td>
+                    <td>Apple Tree</td>
+                </tr>
+                <tr class="table-info">
+                    <th scope="row">T</th>
+                    <td>Tirupur</td>
+                    <td>Tungabadra River</td>
+                    <td>Teakwood Tree</td>
+                </tr>
+                <tr class="table-light">
+                    <th scope="row">I</th>
+                    <td>Indore</td>
+                    <td>Igushik River</td>
+                    <td>Isodon Tree</td>
+                </tr>
+            </table>
 
 
-        <div class="container">
-            <label for="floatingInputGrid">Button Group 2</label><br>
-            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                <div class="btn-group me-2" role="group" aria-label="Second group">
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-warning">A</button>
-                            <button type="button" class="btn btn-warning">T</button>
+
+            <div class="container">
+                <label for="floatingInputGrid">Buttons</label><br>
+                <div class="btn" role="group" aria-label="All Buttons">
+                    <button type="button" class="btn btn-primary">B</button>
+                    <button type="button" class="btn btn-primary">U</button>
+                    <button type="button" class="btn btn-primary">P</button>
+                    <button type="button" class="btn btn-primary">A</button>
+                    <button type="button" class="btn btn-primary">T</button>
+                    <button type="button" class="btn btn-primary">I</button>
+                </div>
+
+                <div class="cointainer">
+                    <label for="floatingInputGrid">Button Group 1</label><br>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group me-2" role="group" aria-label="First group">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-success">B</button>
+                                <button type="button" class="btn btn-success">U</button>
+                                <button type="button" class="btn btn-success">P</button>
+                            </div>
                         </div>
                     </div>
-
-
-                    <div class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-danger">I</button>
-                    </div>
                 </div>
 
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Dropdown button
-                    </button>
 
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="basic.html">basic html page</a></li>
-                        <li><a class="dropdown-item" href="advanced.html">advanced html page</a></li>
-                    </ul>
-                </div>
+                <div class="container">
+                    <label for="floatingInputGrid">Button Group 2</label><br>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group me-2" role="group" aria-label="Second group">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-warning">A</button>
+                                    <button type="button" class="btn btn-warning">T</button>
+                                </div>
+                            </div>
+
+
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button" class="btn btn-danger">I</button>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown button
+                            </button>
+
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="basic.html">basic html page</a></li>
+                                <li><a class="dropdown-item" href="advanced.html">advanced html page</a></li>
+                            </ul>
+                        </div>
+
 </body>
 
 </html>
